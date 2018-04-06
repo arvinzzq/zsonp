@@ -1,0 +1,23 @@
+{
+  "name": "zsonp",
+  "version": "1.0.0",
+  "description": "demo of jsonp",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/babel src/zsonp.js --out-file lib/zsonp.js"
+  },
+  "keywords": [
+    "demo",
+    "jsonp"
+  ],
+  "author": "zhongzhiqiang <zqzhong1211@163.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
+  }
+}
