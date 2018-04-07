@@ -1,1 +1,3 @@
-const zsonp = require('./');
+const zsonp = require('./lib/zsonp');
+
+module.exports = zsonp;

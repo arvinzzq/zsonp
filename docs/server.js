@@ -4,6 +4,7 @@ const app = new Koa();
 const router = new Router();
 
 router.get('/test', (ctx) => {
+    console.log('request: ', ctx.url);
     const { callback } = ctx.query;
     const data = {
         name: '山里有个蓝精灵'
